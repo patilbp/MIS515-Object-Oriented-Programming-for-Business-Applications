@@ -1,3 +1,5 @@
+MIS 515: Object-Oriented Programming for Business Applications
+
 This course covers essential modern computer programming principles and paradigms. At the end of this course, students will have accomplished and be able to explain the following: 
 • Edit, compile, and execute object-oriented programs. 
 • Explain how the object-oriented paradigm provides for information hiding and program re-use. 
