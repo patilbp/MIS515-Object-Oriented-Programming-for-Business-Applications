@@ -56,9 +56,6 @@ with open('randomwalk.csv','a') as file:
     # By-default start of the first simulation
     repeat = 'yes'
 
-    # Variable to store the simulated new_stock_price generated every day, to check if new_stock_price > initial_stock_price OR vice-versa. 
-    simulated_stock_values = []
-
     # Run the simulation for an unlimited number of times, until user stops.
     while repeat.lower().strip() == 'yes':
         """
@@ -66,6 +63,9 @@ with open('randomwalk.csv','a') as file:
         (2) .strip() = for removing extra spaces added before/after the string
         """
 
+        # Variable to store the simulated new_stock_price generated every day, to check if new_stock_price > initial_stock_price OR vice-versa. 
+        simulated_stock_values = []
+        
         # User input for the initial stock price and the days to simulate.
         initial_stock_price = int(input('\nWhat is the initial price of the stock? = $'))
         """
